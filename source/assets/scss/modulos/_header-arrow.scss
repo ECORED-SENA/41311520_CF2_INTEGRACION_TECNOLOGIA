@@ -1,7 +1,7 @@
 .header-arrow {
   position: relative;
   background-color: #5ED45E;
-  padding: 1.3rem 2rem;
+  padding: 2rem;
 
   h1,h2,h3 {
       margin: 0;
@@ -30,10 +30,18 @@
     z-index: 20;
 }
 
+.header-arrow--naranja {
+  background-color: #F59B4B !important;
+}
+
+.header-arrow--naranja::before {
+  border-color:   #F59B4B transparent transparent transparent !important;
+}
+
 .header-arrow--rojo {
   position: relative;
   background-color:  #F47977;
-  padding: 1.3rem 2rem;
+  padding: 2rem;
 
   h1,h2,h3 {
       margin: 0;
