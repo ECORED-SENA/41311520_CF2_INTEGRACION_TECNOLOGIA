@@ -34,17 +34,14 @@ html(lang="es")
                         .card.wow.flipInX(data-wow-delay=".4s")
                             .card-body
                                 ul.list-group.list-group-flush.list.my-n3.nav-temas
-                                    +navTemaItem('play', 'Introducción', '#introduccion')
-                                    +navTemaItem('1', 'Cumplimiento de requisitos de una Empresa Asociativa de Trabajo', '#tema-1')
-                                    +navTemaItem('2', 'Documentos requeridos para la constitución de una Empresa Asociativa de Trabajo', '#tema-2')
+                                    +navTemaItem('1', 'Curaduría de contenidos digitales', '#tema-1')
+                                    +navTemaItem('2', 'Organización y almacenamiento de la información', '#tema-2')
                                     +navTemaItem('glosario', 'Glosario', '#glosario')
-                                    +navTemaItem('complementario', 'Material complementario', '#anexos')
                                     +navTemaItem('referencias', 'Referencias bibliográficas', '#referencias')
 
 
         section#mainContent         
-            #introduccion
-                include pages/introduccion.pug
+
             #tema-1
                 include pages/tema-1.pug
             #tema-2
@@ -52,8 +49,7 @@ html(lang="es")
 
             #glosario
                 include pages/glosario.pug
-            #anexos
-                include pages/material-complementario.pug
+
             #referencias
                 include pages/referencias.pug
 
